@@ -14,7 +14,7 @@ Processing notebook to calculate D-scores from raw trial-level data and to extra
 
 ### raceddm_new.stan and submit.py
 
-Stan modeling code for standard IATs (raceddm_new) and single-target IATs (raceddm_new_st). submit.py is set to compile model as C++, and fit the model to data with 4 MCMC chains, parallelized across 16 cores (within-chain parallelization accomplished with Stan's reduce_sum function). You will need a C++ compiler such as GCC or Clang, and cmdstanpy installed. Submit separate jobs for each IAT by changing the filename variable in submit.py. For review purposes, already fitted models are available on OSF as netcdf files https://osf.io/2r3zd/
+Stan modeling code for standard IATs (raceddm_new). submit.py is set to compile model as C++, and fit the model to data with 4 MCMC chains, parallelized across 16 cores (within-chain parallelization accomplished with Stan's reduce_sum function). You will need a C++ compiler such as GCC or Clang, and cmdstanpy installed. Submit separate jobs for each IAT by changing the filename variable in submit.py. For review purposes, already fitted models are available on OSF as netcdf files https://osf.io/2r3zd/
 
 ### analysis.ipynb
 

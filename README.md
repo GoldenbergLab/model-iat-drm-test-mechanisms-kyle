@@ -2,7 +2,9 @@
 
 ## Overview
 
-This repo contains all processing, modeling, visualization, analysis scripts for Implicit Association Test data collected from the Ideology 2.0 Project (https://osf.io/2483h/; Schmidt et al., 2022). Directory included for pilot / exploratory analyses conducted at the time of Stage 1 submission. Separate directory for confirmatory analyses to be added after Stage 1 acceptance and unmasking.
+This repo contains all processing, modeling, visualization, analysis scripts in support of the paper: LaFollette K.J., Rubez D., Demaree H.A., & Goldenberg A. (2023) "Challenging the Mechanism for the Implicit Assoication Test".
+
+Implicit Association Test data collected from the Ideology 2.0 Project (https://osf.io/2483h/; Schmidt et al., 2022). Directory included for pilot / exploratory analyses conducted at the time of Stage 1 submission. Separate directory for confirmatory analyses to be added for Stage 2 submission.
 
 ## Contents
 

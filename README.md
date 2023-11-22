@@ -6,14 +6,14 @@ This repo contains all processing, modeling, visualization, analysis scripts for
 
 ## Contents
 
-### dataprocessing.ipynb
+### processing.ipynb
 
 Processing notebook to calculate D-scores from raw trial-level data and to extract explicit preference scores from subject-level data. Note that the full csvs containing all raw data from Ideology 2.0 are not uploaded at the time of Stage 1 submission, but csvs containing all data necessary to replicate results are available on OSF https://osf.io/2r3zd/
 
-### raceddm_new.stan, raceddm_new_st.stan, and submit.py
+### raceddm_new.stan and submit.py
 
 Stan modeling code for standard IATs (raceddm_new) and single-target IATs (raceddm_new_st). submit.py is set to compile model as C++, and fit the model to data with 4 MCMC chains, parallelized across 16 cores (within-chain parallelization accomplished with Stan's reduce_sum function). You will need a C++ compiler such as GCC or Clang, and cmdstanpy installed. Submit separate jobs for each IAT by changing the filename variable in submit.py. For review purposes, already fitted models are available on OSF as netcdf files https://osf.io/2r3zd/
 
-### analysis_visualization.ipynb
+### analysis.ipynb
 
-Visualization and analysis notebook. Reproduces all figures included in Stage 1 submission.
+Visualization and analysis notebook. Reproduces all figures and analyses included in Stage 1 submission.
